@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>MonoGame-Portable</id>
-        <version>3.2.0</version>
+        <version>3.2.1</version>
         <title>MonoGame Portable</title>
         <authors>Simon-Darkside</authors>
         <owners>MonoGameTeam</owners>
@@ -28,5 +28,6 @@ https://github.com/DDReaper/MonoGame/tree/develop.portable</releaseNotes>
         <file src="..\MonoGame.Framework\bin\Portable\Release\MonoGame.Framework.dll" target="lib\portable-net4+sl4+wp8+win8\MonoGame.Framework.dll" />
         <file src="..\MonoGame.Framework\bin\Portable\Release\MonoGame.Framework.dll" target="lib\portable-net4+sl5+wp8+win8\MonoGame.Framework.dll" />
         <file src="..\MonoGame.Framework\bin\Portable\Release\MonoGame.Framework.dll" target="lib\portable-net45+wp8+win8\MonoGame.Framework.dll" />
+        <file src="tools\install.ps1" target="tools\install.ps1" />
     </files>
 </package>
